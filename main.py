@@ -9,7 +9,9 @@ with open('README.md', 'w') as outfile:
             with open(f'./{folders}/README.md') as infile:
                 # print(infile.read())
                 outfile.write('**'+folders+'**\n')
-                outfile.write(infile.read())
+                filedata = infile.read()
+                filedata = filedata.replace('(../images/','(./images/') # image path update
+                outfile.write(filedata)
                 outfile.write("\n\n****\n\n")
 
         

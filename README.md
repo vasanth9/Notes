@@ -66,8 +66,8 @@ add 2 keyboard space for new line
 
 
 cheat sheets from [markdownguide](https://www.markdownguide.org/cheat-sheet/)  
-![markdownbasics001](../images/markdownbasics_001.png)
-![markdownbasics002](../images/markdownbasics_002.png)
+![markdownbasics001](./images/markdownbasics_001.png)
+![markdownbasics002](./images/markdownbasics_002.png)
 
 ****
 
